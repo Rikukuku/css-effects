@@ -26,7 +26,7 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(images/17live_image.jpeg);
+  background: url(../images/17live_image.jpeg);
   background-size: cover;
   transition: 0.5s;
 }
