@@ -53,19 +53,14 @@ body {
   position: absolute;
   display: block;
   transform: scale(1);
-  width: calc(100% + 150px);
-  height:  8px;
 }
 .square span:nth-child(1) {
-
-  top: -80px;
-  left: -75px;
-  width: calc(100% + 150px);
+  height: calc(100% + 150px);
+  width: 8px;
   background: linear-gradient(180deg, #ff0, #f00);
-  animation: animate-odd 40s linear infinite;
 }
 
-.square span:nth-child(3) {
+/*.square span:nth-child(3) {
 
   top: -80px;
   left: initial;
@@ -86,4 +81,4 @@ body {
   {
     transform: scaleY(1);
   }
-}
+}*/
